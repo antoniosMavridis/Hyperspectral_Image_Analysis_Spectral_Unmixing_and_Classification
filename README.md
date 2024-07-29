@@ -48,9 +48,7 @@ In this part, pixels are classified into one of the known classes based on their
    - (i) Train the classifier using 10-fold cross-validation and report the validation error and standard deviation.
    - (ii) Train the classifier on the full training set and evaluate it on a test set, compute the confusion matrix, and calculate the success rate.
 
-## Data
 
-The project utilizes the "Salinas" HSI, which depicts an area of the Salinas Valley in California, USA. The dataset includes:
-- **Salinas_cube.mat**: Contains the spectral data.
-- **Salinas_ground_truth.mat**: Contains the class labels for each pixel.
+- **Datasets**
+  - Contains all datasets. The project utilizes the "Salinas" HSI, which depicts an area of the Salinas Valley in California, USA.
 
