@@ -13,13 +13,14 @@ In remote sensing applications, HSIs are used to study the Earth's surface. Due 
 
 Spectral unmixing (SU) aims to decompose a pixel's spectral signature into contributions from several pure materials (endmembers). Given the spectral signatures of pure pixels, the objective is to determine the percentage (abundance) of each material present in a mixed pixel. Mathematically, this is expressed as:
 
-\[ y = X\theta + \eta \]
+$$ y = X\theta + \eta $$
 
 Where:
-- \( y \) is the L-dimensional spectral signature of the pixel.
-- \( X \) is the matrix of spectral signatures of the pure pixels (endmembers).
-- \( \theta \) is the abundance vector representing the proportion of each material.
-- \( \eta \) is the noise vector.
+- $y$ is the $L$-dimensional spectral signature of the pixel.
+- $X$ is the matrix of spectral signatures of the pure pixels (endmembers).
+- $\theta$ is the abundance vector representing the proportion of each material.
+- $\eta$ is the noise vector.
+
 
 **Tasks:**
 1. Implement and compare the following spectral unmixing methods:
